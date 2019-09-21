@@ -1,0 +1,54 @@
+/*
+#  .................
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+#  .................
+*/
+body{
+ background: #21C08B;
+}
+h1{
+ color: white;
+}
+.title_form{
+ text-align: center;
+}
+.container{
+ border: 1px solid black;
+ border-radius: 10px;
+ padding: 25px;
+ /* width: !50%; Esto esta mal! Anula   */
+ background: lightblue;
+ justify-content: center;
+ margin-left: 450px;
+ margin-right : 450px;
+}
+.picture{
+ 
+ text-align: center;
+ /* display: flex; */
+}
+/* .picture .item{
+ justify-content: center;
+} */
+.item{
+ /* display: flex; */
+ align-items: center;  /* centra el cuadro o lo adelgaza   "BUG"  */
+ margin-right: 10px;
+ text-align: center;
+}
+.botones{
+ text-align: center;
+ margin-top: 15px;
+}
+.botones .boton_1{
+ margin-right: 50px;
+}
+h3{
+ padding: 10px;
+ color: black;
+}
